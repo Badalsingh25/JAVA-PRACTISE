@@ -87,6 +87,7 @@ class StringIndexOutOfBoundExceptionDemo{
     }
 }
 */
+
 /* 
 
 // 6.IllegalArgumentException
@@ -116,6 +117,9 @@ class IllegalArgumentExceptionDemo{
     }
 }
 */
+
+
+
 /* 
 // 7.IllegalStateException
 
@@ -144,6 +148,9 @@ class IllegalStateExceptionDemo{
     }
 }
 */
+
+
+
 /* 
 // 8.RuntimeException
 import java.util.*;

@@ -782,6 +782,7 @@ class main{
     }
 }
 */
+ /*
 class X{
      void show(){
         System.out.println("Inside X");
@@ -793,9 +794,9 @@ class Y extends X{
         System.out.println("Inside Y");
     }
 
-    void display2() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    // void display2() {
+    //     throw new UnsupportedOperationException("Not supported yet.");
+    // }
 }
 class main{
     public static void main(String[] args) {
@@ -803,7 +804,7 @@ class main{
         y1.show();
     }
 }
-
+*/
 
 
 // Example of Overriding in Java
@@ -829,7 +830,7 @@ class Geeks {
     public static void main(String[] args)
     {
         Dog d = new Dog();
-        d.move(); // Output: Dog is running.
+        d.move(); // Output: Animal is moving. Dog is running.
         d.eat(); // Output: Animal is eating.
         d.bark(); // Output: Dog is barking.
     }

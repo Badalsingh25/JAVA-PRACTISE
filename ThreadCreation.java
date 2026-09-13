@@ -52,6 +52,8 @@ class ThreadDemo{
     }
 }
  */
+
+
 /* 
 class A implements Runnable {
 
@@ -117,12 +119,13 @@ class ThreadDemo {
     }
 }
 */
+
+
 /* 
 class A extends Thread{
     @Override
     public void run(){
-        for (int i = 1; i <= 5; i++) {
-            
+        for (int i = 1; i <= 5; i++) {       
             System.out.println("From thread A,i=" + i);
         }
         System.out.println("Exist from thread A...");
@@ -432,14 +435,17 @@ class App {
         App app = new App();
          var threadOne = new Thread(app::increment);
          var threadTwo = new Thread(app::increment);
+
          threadOne.start();
          threadTwo.start();
          threadOne.join();
          threadTwo.join();
+
         System.out.println("Value : " + counter);
     }
 }
- 
+*/ 
+
  /* 
 class RaceCondition{
     int counter = 0;
@@ -633,10 +639,11 @@ class Main {
         t2.start();
 
         t2.join();
-
     }
 }
  */
+
+
 /* 
 class ThreadDemo {
 
